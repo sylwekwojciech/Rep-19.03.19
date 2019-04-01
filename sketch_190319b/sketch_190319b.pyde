@@ -1,7 +1,7 @@
-#ista = [1,2,3]
-#rotka = (1,1,2)
-#lownik = {"klucz":"wartosc", "key":"value"}
-#bior = {3,1,2}
+#lista = [1,2,3]
+#krotka = (1,1,2)
+#slownik = {"klucz":"wartosc", "key":"value"}
+#zbior = {3,1,2}
 
 
 def setup():

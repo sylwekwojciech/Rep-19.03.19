@@ -30,12 +30,13 @@ def draw():
     global yspeed 
     global xdirection 
     global ydirection
-    fill(random(111),random(50),random(150))
+    fill(random(111),random(50),random(150))# z kolorami na łatwiznę? ;)
     
     background(111)
   
     xpos = xpos + ( xspeed * xdirection )
     ypos = ypos + ( yspeed * ydirection )
+    # ruch miał być od połowy krawędzi do połowy krawędzi, a program się zamykać po dojściu
   
     if (xpos > width or xpos < 0):
         xdirection *= -1
